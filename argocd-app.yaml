@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: Diamond-Carat-Calculator
+  name: diamond-carat-calculator
   namespace: argocd
 spec:
   project: default
