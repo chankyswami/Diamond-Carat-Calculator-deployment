@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: Diamond-Carat-Calculator
-  namespace: Diamond-Carat-Calculator
+  namespace: diamond-carat-calculator
 spec:
   replicas: 1
   selector:

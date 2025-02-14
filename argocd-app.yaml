@@ -11,7 +11,7 @@ spec:
     path: .
   destination:
     server: https://172.16.16.100:6443
-    namespace: Diamond-Carat-Calculator
+    namespace: diamond-carat-calculator
   syncPolicy:
     automated:
       prune: true
