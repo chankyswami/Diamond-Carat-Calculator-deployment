@@ -2,11 +2,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: Diamond-Carat-Calculator
-  namespace: Diamond-Carat-Calculator
+  name: diamond-carat-calculator
+  namespace: diamond-carat-calculator
 spec:
   selector:
-    app: Diamond-Carat-Calculatort
+    app: diamond-carat-calculator
   ports:
     - protocol: TCP
       port: 5000
