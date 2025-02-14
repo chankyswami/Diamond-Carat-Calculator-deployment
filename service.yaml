@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: Diamond-Carat-Calculator
+  namespace: Diamond-Carat-Calculator
+spec:
+  selector:
+    app: Diamond-Carat-Calculatort
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+      nodePort: 30090
+  type: NodePort

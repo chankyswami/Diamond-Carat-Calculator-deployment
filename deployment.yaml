@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Diamond-Carat-Calculator
+  namespace: Diamond-Carat-Calculator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Diamond-Carat-Calculator
+  template:
+    metadata:
+      labels:
+        app: Diamond-Carat-Calculator
+    spec:
+      containers:
+        - name: Diamond-Carat-Calculator
+          image: chankyswami/Diamond-Carat-Calculator:latest
+          ports:
+            - containerPort: 5000
