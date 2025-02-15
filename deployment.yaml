@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: diamond-carat-calculator
-          image: chankyswami/diamond-carat-calculator:latest
+          image: docker.io/chankyswami/diamond-carat-calculator:latest
           ports:
             - containerPort: 5000
